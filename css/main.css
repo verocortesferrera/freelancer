@@ -166,6 +166,7 @@ a:hover{
 	position: relative;
 	height: 600px;
 	background-color: #fff;
+	overflow: auto;
 }
 
 .galeria{
@@ -278,6 +279,7 @@ a:hover{
 .download a{
 	font-family: 'Lato', sans-serif;
 	font-size: 18px;
+	margin:0;
 }
 
 
@@ -344,6 +346,8 @@ a:hover{
 	font-family: 'Lato', sans-serif;
 }
 
+
+
 .send{
 	background-color: #18BC9C;
 	text-align: center;
@@ -363,9 +367,9 @@ a:hover{
 .send a{
 	font-family: 'Lato', sans-serif;
 	font-size: 18px;
-	padding-right: 30px;
 	font-weight: bold;
 	text-align: center;
+	margin:0;
 }
 
 /* FOOTER*/
@@ -379,21 +383,22 @@ footer{
  	font-family: 'Lato', sans-serif;
 }
 
-footer h2{
+footer h3{
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 }
 
 .columna{
-	width: 300px;
+	width: 320px;
 	height: auto;
 	display: inline-block;
+	vertical-align: text-top; /*para tirar textos arriba del div*/
 	margin: 0;
-	padding: 30px;
+	padding: 20px;
 	padding-bottom: 10px;
 	line-height: 1.5em;
-	margin-left: 40px;
+	margin-left: 50px;
 }
 
 .columna p{
@@ -408,5 +413,31 @@ footer h2{
 
 .uno{
 	width: 200px;
-	padding-top: 0;
+
+}
+
+.dos{
+	margin-left: 30px;
+}
+
+.dos a{
+    
+    font-weight: 300;
+    width: 150px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin:2px;
+    border: 2px solid white;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    padding: 15px;
+}
+
+.dos a:hover{
+    
+    color: #18bc9c;
+    background-color: white;
+  
 }

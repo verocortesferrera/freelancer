@@ -78,3 +78,32 @@ Este reto será evaluado sobre lo siguiente:
 * Indentación
 * Archivo `README.md` actualizado y correctamente redactado
 * Uso de comentarios para hacer tu código más legible
+
+----------------------------------------
+## Desarrollo Freelancer
+
+# Se dividió el proyecto en las siguientes secciones:
+
+1. Header: 
+2. Section: HOME
+3. Section: PORTAFOLIO
+4. Section: ABOUT
+5. Section: CONTACT
+6. Footer:
+
+# Se utilizo las siguientes etiquetas:
+
+* H1: para el titulo de la página.
+* H2: para titulos de secciones.
+* H3: subtitulos
+* p:  para resto de textos.
+* nav: para el menu
+* form: para el formulario
+* deberia usar buttom para los botones pero no tengo tiempo XD
+
+# Utilice iconos de font-awesome.
+y tipografias MONSERRAT y LATO de google fonts.
+
+
+
+
